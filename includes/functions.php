@@ -295,7 +295,7 @@ function wpcf7_flat_join( $input ) {
 	foreach ( (array) $input as $value )
 		$output[] = trim( (string) $value );
 
-	return implode( ', ', $output );
+	return implode( '; ', $output );
 }
 
 function wpcf7_support_html5() {
